@@ -1,0 +1,9 @@
+.home-container button {
+  width: 100px;
+  padding: 6px;
+  color: #fff;
+  background-color: #b34400;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
