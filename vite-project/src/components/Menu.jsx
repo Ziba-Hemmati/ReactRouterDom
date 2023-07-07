@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { data } from "../Scripts/data";
+import { data } from "../JS/data";
 import "../styles/menu.css";
 const Menu = () => {
   return (

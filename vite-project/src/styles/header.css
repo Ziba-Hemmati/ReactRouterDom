@@ -22,3 +22,6 @@
   color: #fff;
   font-size: 1.1rem;
 }
+.link:active {
+  color: #b8b006;
+}
