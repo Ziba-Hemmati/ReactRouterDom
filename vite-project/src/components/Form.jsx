@@ -1,7 +1,34 @@
 import "../styles/form.css";
 import Button from "./Button";
+import { useState } from "react";
 
 const Form = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+  const handleEmail = (e) => {
+    setEmail(e.target.value);
+  };
+  const handleMessage = (e) => {
+    setMessage(e.target.value);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!name && !email && !message) alert("Fill the form");
+    else if (!name) alert("Enter your name");
+    else if (!email.includes("@") || !email.includes("."))
+      alert("Enter valid email");
+    else if (!message) alert("Write your message");
+    else {
+      setName("");
+      setEmail("");
+      setMessage("");
+      alert("Your message send successfully");
+    }
+  };
   return (
     <div>
       <div className="contact-form-container">
@@ -11,23 +38,35 @@ const Form = () => {
             <div>
               <label>Full Name</label>
             </div>
-            <input type="text" placeholder="Enter full name..." />
+            <input
+              value={name}
+              onChange={handleName}
+              type="text"
+              placeholder="Enter full name..."
+            />
           </div>
           <div className="form-item">
             <div>
               <label>Email</label>
             </div>
-            <input type="email" placeholder="Enter Email..." />
+            <input
+              value={email}
+              onChange={handleEmail}
+              type="email"
+              placeholder="Enter Email..."
+            />
           </div>
           <div className="form-item">
             <label>Message</label>
             <textarea
+              value={message}
+              onChange={handleMessage}
               cols="30"
               rows="10"
               placeholder="Enter message..."
             ></textarea>
           </div>
-          <Button text="Send Message" />
+          <Button handleSubmit={handleSubmit} text="Send Message" />
         </form>
       </div>
     </div>

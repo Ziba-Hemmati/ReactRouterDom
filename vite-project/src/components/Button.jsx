@@ -1,8 +1,10 @@
 import "../styles/button.css";
-const Button = ({ text }) => {
+const Button = ({ text, handleSubmit }) => {
   return (
     <div>
-      <button className="button">{text}</button>
+      <button onClick={handleSubmit} type="submit" className="button">
+        {text}
+      </button>
     </div>
   );
 };
