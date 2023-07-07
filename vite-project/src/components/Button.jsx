@@ -2,7 +2,7 @@ import "../styles/button.css";
 const Button = ({ text }) => {
   return (
     <div>
-      <button>{text}</button>
+      <button className="button">{text}</button>
     </div>
   );
 };

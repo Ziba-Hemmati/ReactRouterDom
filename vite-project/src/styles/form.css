@@ -1,0 +1,20 @@
+.contact-form-container {
+  padding: 0 30px;
+}
+
+.contact-form-container h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+.form-item {
+  margin: 20px 0;
+  line-height: 22px;
+  font-size: 0.8rem;
+}
+.contact__form input,
+.contact__form textarea {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  outline: none;
+}
