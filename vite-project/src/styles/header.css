@@ -3,13 +3,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 6px 120px;
-  background-color: #807801;
+  background-color: #2d2d2d;
 }
 .header__logo {
   width: 60px;
   border-radius: 50%;
 }
-
 .header__list {
   width: 40%;
 }
