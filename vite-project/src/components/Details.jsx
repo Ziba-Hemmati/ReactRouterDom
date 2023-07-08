@@ -1,7 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { data } from "../JS/data";
 import "../styles/details.css";
-import { useNavigate } from "react-router-dom";
 
 const Details = () => {
   const params = useParams();
@@ -24,7 +23,9 @@ const Details = () => {
             <p>{price}</p>
             <p>{description}</p>
           </div>
-          <button className="details__button" onClick={handleNavigate}><i className="fa-solid fa-arrow-left"></i></button>
+          <button className="details__button" onClick={handleNavigate}>
+            <i className="fa-solid fa-arrow-left"></i>
+          </button>
         </div>
       </div>
     </div>

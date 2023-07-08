@@ -1,6 +1,7 @@
-import Card from "./Card";
 import { data } from "../JS/data";
+import Card from "./Card";
 import "../styles/menu.css";
+
 const Menu = () => {
   return (
     <div>
