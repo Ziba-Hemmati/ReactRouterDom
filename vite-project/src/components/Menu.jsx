@@ -1,4 +1,4 @@
-import { data } from "../JS/data";
+import { data } from "../js/data";
 import Card from "./Card";
 import "../styles/menu.css";
 

@@ -1,8 +1,8 @@
 import { useNavigate, useParams } from "react-router-dom";
-import { data } from "../JS/data";
+import { data } from "../js/data";
+import NotFound from "./NotFound";
 import "../styles/details.css";
 import "../styles/notFound.css";
-import NotFound from "./NotFound";
 
 const Details = () => {
   const params = useParams();
