@@ -1,6 +1,8 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { data } from "../JS/data";
 import "../styles/details.css";
+import "../styles/notFound.css";
+import NotFound from "./NotFound";
 
 const Details = () => {
   const params = useParams();
@@ -9,6 +11,9 @@ const Details = () => {
   const handleNavigate = () => {
     navigate(-1);
   };
+  if (!item?.id) {
+    return <NotFound />;
+  }
   const link = item?.imageLink;
   const header = item?.header;
   const price = item?.price;
