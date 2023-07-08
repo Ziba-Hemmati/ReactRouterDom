@@ -1,8 +1,6 @@
 import { useParams } from "react-router-dom";
 import { data } from "../JS/data";
 import "../styles/details.css";
-import Card from "./Card";
-import Button from "./Button";
 import { useNavigate } from "react-router-dom";
 
 const Details = () => {
