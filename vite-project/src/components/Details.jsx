@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { data } from "../JS/data";
 import "../styles/details.css";
+import Card from "./Card";
 
 const Details = () => {
   const params = useParams();
@@ -17,7 +18,6 @@ const Details = () => {
           <h3>{header}</h3>
           <p>{price}</p>
           <p>{description}</p>
-          
         </div>
       </div>
     </div>

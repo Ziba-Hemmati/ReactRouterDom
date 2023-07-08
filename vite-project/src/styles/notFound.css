@@ -1,0 +1,16 @@
+.notFound-container {
+  height: 800px;
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.notFound-container h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.notFound-container h3 {
+  font-size: 2rem;
+}
