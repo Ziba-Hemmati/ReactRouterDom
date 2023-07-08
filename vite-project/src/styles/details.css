@@ -1,0 +1,22 @@
+.details-container {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details__card {
+  width: 800px;
+  height: fit-content;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #b8b006;
+  border-radius: 8px;
+}
+.details__image {
+  width: 400px;
+  border-radius: 8px;
+}
+.details__content {
+  margin: 20px;
+  line-height: 30px;
+}
