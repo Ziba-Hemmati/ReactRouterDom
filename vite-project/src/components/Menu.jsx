@@ -10,9 +10,10 @@ const Menu = () => {
           {data.map((item) => {
             return (
               <Card
-                link={item["image-link"]}
-                header={item.header}
-                price={item.price}
+                link={item?.imageLink}
+                header={item?.header}
+                price={item?.price}
+                id={item?.id}
               />
             );
           })}

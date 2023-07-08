@@ -6,18 +6,19 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Contact from "./components/contact";
 import { Routes, Route } from "react-router-dom";
-import logo from "./assets/images/logo.jpg";
+import Details from "./components/Details";
 
 function App() {
   return (
     <>
       <div className="container">
-        <Header logo={logo} />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/details/:id" element={<Details />} />
         </Routes>
         <Footer />
       </div>

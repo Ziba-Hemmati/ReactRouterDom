@@ -7,33 +7,39 @@ import menu6 from "../assets/images/menu6.jpg";
 
 export const data = [
   {
-    "image-link": menu1,
+    imageLink: menu1,
     header: "Chole Bhature",
     price: "$250",
+    id: 0,
   },
   {
-    "image-link": menu2,
+    imageLink: menu2,
     header: "Masala Dosa",
     price: "$280",
+    id: 1,
   },
   {
-    "image-link": menu3,
+    imageLink: menu3,
     header: "Butter Paneer",
     price: "$350",
+    id: 2,
   },
   {
-    "image-link": menu4,
+    imageLink: menu4,
     header: "Idli Vada",
     price: "$230",
+    id: 3,
   },
   {
-    "image-link": menu5,
+    imageLink: menu5,
     header: "Gujrati Thali",
     price: "$450",
+    id: 4,
   },
   {
-    "image-link": menu6,
+    imageLink: menu6,
     header: "Rajasthani Thali",
     price: "$499",
+    id: 5,
   },
 ];

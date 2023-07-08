@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "../styles/header.css";
-const Header = ({ logo }) => {
+import logo from "../assets/images/logo.jpg";
+
+const Header = () => {
   return (
     <div>
       <nav className="header-container">
