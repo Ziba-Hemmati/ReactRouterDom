@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,4 +20,13 @@
   padding: 10px 0;
   color: #2d2b04;
   text-shadow: 1px 1px 2px #cccaab;
+}
+.home-container button {
+  width: 108px;
+  padding: 6px;
+  color: #fff;
+  background-color: #b8b006;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }

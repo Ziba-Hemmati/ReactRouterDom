@@ -1,5 +1,4 @@
 import "../styles/form.css";
-import Button from "./Button";
 import { useState } from "react";
 
 const Form = () => {
@@ -66,7 +65,9 @@ const Form = () => {
               placeholder="Enter message..."
             ></textarea>
           </div>
-          <Button handleSubmit={handleSubmit} text="Send Message" />
+          <button className="form__button" type="submit" onClick={handleSubmit}>
+            Send Message
+          </button>
         </form>
       </div>
     </div>
