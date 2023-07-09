@@ -11,7 +11,7 @@ const Details = () => {
   const handleNavigate = () => {
     navigate(-1);
   };
-  if (!item?.id) {
+  if (!item) {
     return <NotFound />;
   }
   const link = item?.imageLink;
