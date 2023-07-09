@@ -1,13 +1,21 @@
-import "../styles/footer.css"
+import "../styles/footer.css";
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer__icons">
-        <i className="fa-brands fa-instagram"></i>
-        <i className="fa-brands fa-twitter"></i>
-        <i className="fa-brands fa-square-facebook"></i>
-        <i className="fa-brands fa-linkedin"></i>
+        <a href="#">
+          <i className="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
       </div>
       <div className="footer__content">
         <p>@2021 IndeanFooood.com</p>
