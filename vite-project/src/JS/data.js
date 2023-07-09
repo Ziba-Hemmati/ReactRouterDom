@@ -10,7 +10,7 @@ export const data = [
     imageLink: menu1,
     header: "Chole Bhature",
     price: "$250",
-    id: 0,
+    id: 6,
     description:
       "It is a popular North Indian breakfast that you find in many restaurants and street stalls all over India. Today I am sharing a Delhi street-style chole bhature recipe.",
   },
