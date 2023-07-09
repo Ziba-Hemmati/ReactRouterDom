@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 
 const Home = () => {
@@ -5,8 +6,9 @@ const Home = () => {
     <div>
       <div className="home-container ">
         <h2>Food Corner</h2>
-        <p>INDIAN FOOD AT A CLICK</p>
-        <button>ORDER NOW</button>
+        <Link to="/menu">
+          <button>ORDER NOW</button>
+        </Link>
       </div>
     </div>
   );
